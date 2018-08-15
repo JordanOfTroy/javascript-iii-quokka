@@ -5,6 +5,16 @@ var answers = ["yes", "no", "yes", "no", "no", "no"]
 
 //DESIRED RESULT = ["no", "yes", "no", "yes", "yes", "yes"]
 
+let newAnswers = answers.map(function(value, i, arr) {
+    if (value === "no") {
+        return "yes"
+    } else {
+        return "no"
+    }
+})
+
+newAnswers
+
 
 var employees = [
     { name: "a-aron", pay: 12 },

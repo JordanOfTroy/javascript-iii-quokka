@@ -9,7 +9,11 @@ let yessa = {
 
 //Get yessa's name and favoritePhrase
 
-
+let {name,
+    skills,
+    race,
+    planet} = yessa
+name
 
 //Instead of person, pick off the parameters: name, planet, skills
 //on the first line of the function

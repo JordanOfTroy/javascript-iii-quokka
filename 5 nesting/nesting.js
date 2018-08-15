@@ -178,6 +178,14 @@ let data = {
 // Lets do som grabbing of nested data.  
 
 // Lets use destructuring to grab the results off our data
+data.results
+
 // Lets find the 3rd person in the list
+data.results[2]
 // Let's use destructing to get the third person's name, mass, and gender
+data.results[2].name
+data.results[2].mass
+data.results[2].gender
+
 // Lets start with the base data object then get to Obiwans's second starship
+data.results[data.results.length - 1].starships[1]

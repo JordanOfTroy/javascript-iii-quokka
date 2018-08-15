@@ -27,3 +27,14 @@ sum;
 // - Use curly braces
 // - Still need a return statement
 // - Can do many lines of code
+
+let subtract = (x, y) => x - y
+
+let ageChecker = (age) => {
+    if (age < 18) {
+        return "Sorry"
+    } else if (age > 18) {
+        return "Ok"
+    }
+}
+

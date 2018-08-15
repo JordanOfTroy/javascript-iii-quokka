@@ -28,5 +28,17 @@ var athletes = [
 ]
 
 //Filter OUT all athletes with wits 5 or higher
+
+let dumbJocks = athletes.filter(function (value, i, arr) {
+    return athletes[i].wits < 5
+})
+//athletes.filter( athlete => athlete.wits < 5) is also acceptable and probably preferable
+
+dumbJocks
+
+
 //Filter IN all athletes with a strength higher than 6
+
+let strong = athletes[i].strength > 7
+
 //Filter OUT all althletes that don't have Guy in their name
